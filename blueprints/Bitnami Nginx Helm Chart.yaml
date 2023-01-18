@@ -14,7 +14,7 @@ grains:
     spec:
       source:
         path: https://github.com/bitnami/charts.git//bitnami/nginx
-      host:
+      agent:
         name: eks-demo
       inputs:
         - replicaCount: '{{ .inputs.replicaCount }}'

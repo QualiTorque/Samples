@@ -7,5 +7,5 @@ grains:
     spec:
       source:
         path: github.com/QualiTorque/samples.git//terraform/eks-rds
-      host:
+      agent:
         name: eks-demo
